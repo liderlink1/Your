@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your CodeSchool | SERVICES</title>
+	<link rel="stylesheet" href="stylesheet/style.css">
+	<link rel="icon" href="../image/Tab-logo.jpg">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script src="scripts/app.js"></script>
+</head>
+<body>
+<header>
+	<h1 id="title">Your CodeSchool</h1>
+	<nav>
+		<ul>
+			<li><a href="../index.html">HOME</a></li>
+			<li><a href="../contact/contact.html">CONTACT</a></li>
+            <li><a href="services.html">SERVICES</a>
+        </li>
+	</nav>
+</header>
+<h1 id="input-title">Manager System</h1>
+<form method="post" action="server/server.php">
+<label id="nameL">
+	name
+</label>
+<input type="text" id="name" name="name">
+<label id="passL">
+	password
+</label>
+<input type="password" id="password" name="password">
+<input type="submit" value="send" id="submit" name="submit">
+</form>
+<p id="errMsg"></p>
+<p id="wrongMsg"></p>
+</body>
+</html>

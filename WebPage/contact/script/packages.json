@@ -1,0 +1,9 @@
+{
+	"CompanyName":"Your CodeSchool",
+	"logoExt":"jpg",
+	"workers":1,
+	"dataBase": {
+		"username":"Admin",
+		"password":"password"
+	}
+}

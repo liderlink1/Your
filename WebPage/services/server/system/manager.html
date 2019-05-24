@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>System Manager</title>
+	<style>
+	   img {
+	   	width:25px;
+	   	height:25px;
+	   }
+	   p {
+	   	font-size:20px;
+	   }
+    </style>
+    <script>
+    	var url = location.href;
+    	if(url.match("login=success")) {
+            // Nothing
+    	} else {
+            window.location = "http://localhost:4000/Documents/WebPage/services/services.html"
+    	}
+    </script>
+</head>
+<body>
+<h1>System Manager</h1>
+<hr>
+<p><b>Your CodeSchool | HOME Documents</b></p>
+<img src="file.png">&nbsp;<a href="../../../index.html">index.html</a><br>
+<img src="file.png">&nbsp;<a href="../../../css/style1.css">style1.css</a><br>
+<img src="file.png">&nbsp;<a href="../../../script/app1.js">app1.js</a><br>
+<img src="file.png">&nbsp;<a href="../../../server/server.php">server.php</a><br>
+<img src="image.png">&nbsp;<a href="../../../image/Tab-logo.jpg">Tab-logo.jpg</a><br>
+<p><b>Your CodeSchool | SERVICES Documents</b></p>
+<img src="file.png">&nbsp;<a href="../../services.html">services.html</a><br>
+<img src="file.png">&nbsp;<a href="../../stylesheet/style.css">style.css</a><br>
+<img src="file.png">&nbsp;<a href="../../scripts/app.js">app.js</a><br>
+<img src="file.png">&nbsp;<a href="../../server/server.php">server.php</a><br>
+</body>
+</html>
